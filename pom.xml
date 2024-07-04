@@ -30,15 +30,13 @@
 		<java.version>17</java.version>
 	</properties>
 	
-	<repositories>
+<distributionManagement>
     <repository>
-        <id>github</id>
-        <url>https://maven.pkg.github.com/devopshint/publish-java-package-with-maven-on-github-packages</url>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/mhryrehman/test</url>
     </repository>
-</repositories>
+  </distributionManagement>
 	
 	<dependencies>
 	<dependency>
