@@ -13,6 +13,10 @@ public class MyController {
     public String publicEndpoint() {
         return "This is a public endpoint";
     }
+    @GetMapping("/protected")
+    public String protectedEndpoint() {
+        return "This is a protected endpoint";
+    }
 
 //    @GetMapping("/protected")
 //    public String protectedEndpoint() {
